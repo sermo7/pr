@@ -20,6 +20,8 @@ public class Token {
     private String value;
     
     private Boolean caducado;
+    
+    private Date fecha;
 
     @ManyToOne
     @JoinColumn
