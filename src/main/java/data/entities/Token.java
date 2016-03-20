@@ -22,6 +22,8 @@ public class Token {
     private Boolean caducado;
     
     private Date fecha;
+    
+    private String campo3;
 
     @ManyToOne
     @JoinColumn
