@@ -18,6 +18,8 @@ public class Token {
 
     @Column(unique = true, nullable = false)
     private String value;
+    
+    private Boolean caducado;
 
     @ManyToOne
     @JoinColumn
